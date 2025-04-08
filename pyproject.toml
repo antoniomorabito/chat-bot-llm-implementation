@@ -1,0 +1,19 @@
+[project]
+name = "myrag-chatbot"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Antonio Morabito",email = "antoniomorabitositorus@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "myrag_chatbot", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
